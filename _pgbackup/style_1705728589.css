@@ -1,0 +1,48 @@
+/*
+
+ * Theme Name: Aussie Audio Theme
+*/
+/* * Version: 1.0.1
+
+ * Theme Name: Aussie Audio Theme
+ * Author: Aussie Audio and Web Design
+ * Author URI: https://aussieaudio.com
+ * Description: Custom theme build by Aussie Audio and Web Design. Aussie Audio and Web Design makes custom wordpress themes and websites for each and every client. Schedule a consultation at www.aussieaudio.com to find out what we can do for you!
+ * Version: 1.0.4
+.header-logo {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 120px;
+}
+
+@media (max-width:991px) {
+    .header-hide {
+        position: fixed;
+        visibility: hidden;
+    }
+}
+
+.navbar-toggle-position {
+    right: 5%;
+    top: 45px;
+}
+
+@media (min-width:992px) {
+    .nav-hide {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+.nav-item a.active {
+    font-weight: 700;
+}
+
+.footer-social:hover {
+    color: var(--bs-light) !important;
+}
+
+.custom-dropdown-items:hover {
+    background-color: var(--bs-primary);
+    color: var(--bs-gray-500) !important;
+}

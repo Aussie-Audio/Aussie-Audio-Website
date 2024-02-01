@@ -74,8 +74,7 @@
 }
 
 .webtest-header div {
-    background-image: url('https://images.unsplash.com/photo-1515169040891-100d5a84502c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE4fHxwaG9uZSUyMGRhcmt8ZW58MHx8fHwxNzA1ODk3Nzc3fDA&ixlib=rb-4.0.3&q=80&w=1080 ') !important;
-    background-color: var(--bs-gray-500);
+    background-image: url('https://images.unsplash.com/photo-1515169040891-100d5a84502c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE4fHxwaG9uZSUyMGRhcmt8ZW58MHx8fHwxNzA1ODk3Nzc3fDA&ixlib=rb-4.0.3&q=80&w=1080');
 }
 
 .webtest-header h1 {

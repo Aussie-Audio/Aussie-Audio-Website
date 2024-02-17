@@ -152,30 +152,37 @@ if ( ! function_exists( 'aussie_audio_theme_enqueue_scripts' ) ) :
 
         /* Pinegrow generated Enqueue Scripts Begin */
 
+    wp_register_script( 'inline-script-1', '', [], '1.0.11', false );
+    wp_enqueue_script( 'inline-script-1' );
+    wp_add_inline_script( 'inline-script-1', '/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute(\'data-pg-ia-disabled\')) { window.pgia_small_mq=typeof pgia_small_mq==\'string\'?pgia_small_mq:\'(max-width:767px)\';window.pgia_large_mq=typeof pgia_large_mq==\'string\'?pgia_large_mq:\'(min-width:768px)\';var style = document.createElement(\'style\');var pgcss=\'html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}\';if(document.documentElement.hasAttribute(\'data-pg-id\') && document.documentElement.hasAttribute(\'data-pg-mobile\')) {pgia_small_mq=\'(min-width:0)\';pgia_large_mq=\'(min-width:99999px)\'} pgcss+=\'@media \' + pgia_small_mq + \'{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}\';pgcss+=\'@media \' + pgia_large_mq + \'{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}\';style.innerHTML=pgcss;document.querySelector(\'head\').appendChild(style);}}catch(e){console&&console.log(e);}})()');
+
     wp_deregister_script( 'aussie_audio_theme-popper' );
-    wp_enqueue_script( 'aussie_audio_theme-popper', get_template_directory_uri() . '/assets/js/popper.min.js', [], '1.0.10', true);
+    wp_enqueue_script( 'aussie_audio_theme-popper', get_template_directory_uri() . '/assets/js/popper.min.js', [], '1.0.11', true);
 
     wp_deregister_script( 'aussie_audio_theme-bootstrap' );
-    wp_enqueue_script( 'aussie_audio_theme-bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', [], '1.0.10', true);
+    wp_enqueue_script( 'aussie_audio_theme-bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', [], '1.0.11', true);
+
+    wp_deregister_script( 'aussie_audio_theme-pgia' );
+    wp_enqueue_script( 'aussie_audio_theme-pgia', get_template_directory_uri() . '/pgia/lib/pgia.js', [], '1.0.11', true);
 
     /* Pinegrow generated Enqueue Scripts End */
 
         /* Pinegrow generated Enqueue Styles Begin */
 
     wp_deregister_style( 'aussie_audio_theme-blocks' );
-    wp_enqueue_style( 'aussie_audio_theme-blocks', get_template_directory_uri() . '/blocks.css', [], '1.0.10', 'all');
+    wp_enqueue_style( 'aussie_audio_theme-blocks', get_template_directory_uri() . '/blocks.css', [], '1.0.11', 'all');
 
     wp_deregister_style( 'aussie_audio_theme-bootstrap' );
-    wp_enqueue_style( 'aussie_audio_theme-bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', [], '1.0.10', 'all');
+    wp_enqueue_style( 'aussie_audio_theme-bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', [], '1.0.11', 'all');
 
     wp_deregister_style( 'aussie_audio_theme-bootstrap-1' );
-    wp_enqueue_style( 'aussie_audio_theme-bootstrap-1', get_template_directory_uri() . '/bootstrap_theme/bootstrap.css', [], '1.0.10', 'all');
+    wp_enqueue_style( 'aussie_audio_theme-bootstrap-1', get_template_directory_uri() . '/bootstrap_theme/bootstrap.css', [], '1.0.11', 'all');
 
     wp_deregister_style( 'aussie_audio_theme-style' );
-    wp_enqueue_style( 'aussie_audio_theme-style', get_bloginfo('stylesheet_url'), [], '1.0.10', 'all');
+    wp_enqueue_style( 'aussie_audio_theme-style', get_bloginfo('stylesheet_url'), [], '1.0.11', 'all');
 
     wp_deregister_style( 'aussie_audio_theme-style-1' );
-    wp_enqueue_style( 'aussie_audio_theme-style-1', get_template_directory_uri() . '/css/style.css', [], '1.0.10', 'all');
+    wp_enqueue_style( 'aussie_audio_theme-style-1', get_template_directory_uri() . '/css/style.css', [], '1.0.11', 'all');
 
     /* Pinegrow generated Enqueue Styles End */
 
@@ -190,7 +197,6 @@ function pgwp_sanitize_placeholder($input) { return $input; }
 /* Pinegrow generated Include Resources Begin */
 require_once "inc/custom.php";
 if( !class_exists( 'PG_Helper_v2' ) ) { require_once "inc/wp_pg_helpers.php"; }
-if( !class_exists( 'PG_Smart_Walker_Nav_Menu' ) ) { require_once "inc/wp_smart_navwalker.php"; }
 
     /* Pinegrow generated Include Resources End */
 

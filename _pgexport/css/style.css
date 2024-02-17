@@ -39,3 +39,167 @@
 .nav-item .nav-link {
     font-weight: 400;
 }
+
+.services-header div.background-cover {
+    background-image: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=srgb&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDN8fGNvbXB1dGVyfGVufDB8fHx8MTcwNTc0MzE4N3ww&ixlib=rb-4.0.3&q=85 ') !important;
+    background: var(--bs-gray-500);
+    background-size: cover;
+}
+
+.services-header h1 {
+    font-family: 'bernier_regularregular';
+}
+
+.web-description {
+    font-family: 'Inter', sans-serif;
+}
+
+.web-stack-description {
+    font-family: 'Antonio', sans-serif !important;
+}
+
+.custom-divider {
+    padding-bottom: 30px;
+    border-bottom: 3px solid #ffffff;
+    margin-bottom: 30px;
+}
+
+.process-header .background-center-center {
+    background-image: url('https://images.unsplash.com/photo-1589995186053-91d65273cd68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDU5fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwY29tcHV0ZXJ8ZW58MHx8fHwxNzA1ODk1NjY0fDA&ixlib=rb-4.0.3&q=80&w=1080 ') !important;
+    background: var(--bs-gray-500);
+}
+
+.process-header h1 {
+    font-family: 'bernier_regularregular';
+}
+
+.webtest-header div {
+    background-image: url('https://images.unsplash.com/photo-1515169040891-100d5a84502c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE4fHxwaG9uZSUyMGRhcmt8ZW58MHx8fHwxNzA1ODk3Nzc3fDA&ixlib=rb-4.0.3&q=80&w=1080 ') !important;
+    background-color: var(--bs-gray-500);
+}
+
+.webtest-header h1 {
+    font-family: 'bernier_regularregular';
+}
+
+.process-description-section h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+.home-topper .block1 {
+    width: 450px;
+}
+
+.home-topper .block1 h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-topper .block1 h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+.home-topper .block2 {
+    background: var(--bs-white);
+    background-image: url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDR8fGNvbXB1dGVyfGVufDB8fHx8MTcwNjc0ODQ0OXww&ixlib=rb-4.0.3&q=80&w=1080');
+    background-size: cover;
+}
+
+.home-topper .block2 h1 {
+    font-family: 'bernier_regularregular';
+}
+
+.home-topper .block3 h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-topper .block3 img {
+    border-radius: 70px;
+}
+
+.home-topper .block4 h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-topper .block5 .picture-div {
+    height: 100%;
+}
+
+.home-topper .block5 h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+.home-topper .block5 .home-column-link {
+    font-family: 'Inter', sans-serif;
+}
+
+.home-topper .block6 .picture-div {
+    height: 100%;
+}
+
+.home-topper .block6 h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+.home-topper .block6 .home-column-link {
+    font-family: 'Inter', sans-serif;
+}
+
+.testimonial-block img {
+    border-radius: 50px;
+}
+
+.testimonial-block p {
+    font-size: 14px;
+}
+
+.testimonial-block h2 {
+    font-family: 'Inter', sans-serif;
+}
+
+.schedule-social:hover {
+    color: var(--bs-danger) !important;
+}
+
+.our-process .process2 div.background-center-center {
+    background-image: url('https://images.unsplash.com/photo-1612367289790-67d076b32d3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE2fHxtaWNyb3Bob25lJTIwY29tcHV0ZXJ8ZW58MHx8fHwxNzA1OTE1NDQ1fDA&ixlib=rb-4.0.3&q=80&w=1080');
+    background-color: var(--bs-white);
+}
+
+.our-process .process2 h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+.our-process .process2 h3 {
+    font-family: 'Inter', sans-serif;
+}
+
+.our-process .process3 .container .justify-content-between .align-items-start .flex-column {
+    width: 100%;
+}
+
+.our-process .process3 img {
+    max-height: 150px;
+}
+
+.our-process .process3 h4 {
+    font-family: 'Inter', sans-serif;
+}
+
+.our-process .process3 h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+.podtest1 .background-center-center {
+    background-image: url('https://images.unsplash.com/photo-1585155784229-aff921ccfa10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDEyfHxoZWFkcGhvbmVzfGVufDB8fHx8MTcwNTkxMDY2NHww&ixlib=rb-4.0.3&q=80&w=1080 ') !important;
+    background: var(--bs-gray-500);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.podtest1 h1 {
+    font-family: 'bernier_regularregular';
+}
+
+.testimonial-block div svg {
+    height: 75px;
+}

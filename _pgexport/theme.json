@@ -54,9 +54,19 @@
         "typography": {
             "fontFamilies": [
                 {
+                    "fontFamily": "'Open Sans', sans-serif",
+                    "name": "Open Sans",
+                    "slug": "open-sans"
+                },
+                {
                     "fontFamily": "'bernier_regularregular'",
                     "name": "bernier_regularregular",
                     "slug": "bernier_regularregular"
+                },
+                {
+                    "fontFamily": "'Inter', sans-serif",
+                    "name": "Inter",
+                    "slug": "inter"
                 }
             ]
         }
